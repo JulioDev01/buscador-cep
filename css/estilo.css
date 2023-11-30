@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    background-color: #002626;
+}
+
+
+
+.titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    padding-top: 20px;
+    color: #002323;
+}
+
+.quadro {
+    background-color: #EFE7DA;
+    width: 1000px;
+    height: 570px;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+
+.input {
+    width: 380px;
+    height: 50px;
+    background-color: rgb(216, 215, 215);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.button{
+    width: 180px;
+    height: 50px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #002323;
+    font-weight: bolder;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#buscarEnd{
+    background-color: #F4BFDB; 
+    opacity: 0.8;
+}
+#limparCamp{
+    background-color: #87B37A;
+    opacity: 0.8;
+ }
+#salvarDad{
+    background-color: #7885bd; 
+    opacity: 0.8;
+ }

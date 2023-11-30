@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca CEP</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <form name="cadastro">
+        <div class="quadro">
+            <h1 class="titulo">BUSCA CEP</h1>
+
+            <div class='dados_endereco'>
+                <input type="text" class="input" id="cep" placeholder="CEP XXXXXXXX">
+                <input type="number" class="input" id="numero" placeholder="Número"> 
+                <input type="text" class="input" id="localidade" placeholder="Cidade">
+                <input type="text" class="input" id="logradouro" placeholder="Rua">
+                <input type="text" class="input" id="bairro" placeholder="Bairro">
+                <input type="text" class="input" id="uf" placeholder="Estado">
+            </div>
+            <div class="submeter">
+                <p id="msgErro" class="msgErro"></p>
+                <button id="buscarEnd" class="button"> BUSCAR ENDEREÇO </button>
+                <button id="limparCamp" class="button"> LIMPAR CAMPOS </button>
+                <button id="salvarDad" class="button"> SALVAR DADOS </button>
+            </div>
+        </div>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
